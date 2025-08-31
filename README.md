@@ -1,0 +1,276 @@
+[history ch 1.html](https://github.com/user-attachments/files/22062118/history.ch.1.html)
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Class 9 History — Chapter 1: The French Revolution (Text + Easy Explanation)</title>
+  <style>
+    :root{--bg:#f5f7fb;--card:#ffffff;--accent:#1f4b8f;--muted:#555}
+    body{font-family:Inter, Arial, sans-serif;background:var(--bg);color:#222;margin:0;padding:20px}
+    header{max-width:1000px;margin:0 auto 18px}
+    .container{max-width:1000px;margin:0 auto}
+
+    h1{color:var(--accent);margin:6px 0}
+    h2{color:#123764;margin:12px 0}
+    .topbar{display:flex;gap:12px;align-items:center;justify-content:space-between}
+    .card{background:var(--card);padding:16px;border-radius:10px;box-shadow:0 6px 18px rgba(17,24,39,0.06);margin-bottom:12px}
+
+    .chapter-text{white-space:pre-wrap}
+    .para{margin-bottom:10px;padding:10px;border-radius:8px}
+    .orig{background:#fbfbff;border-left:4px solid #dfe8ff}
+    .explain{background:#fff9f0;border-left:4px solid #ffe6b3}
+
+    .image{display:block;max-width:90%;margin:10px auto;border-radius:8px}
+
+    .controls{display:flex;gap:8px;flex-wrap:wrap}
+    button{background:var(--accent);color:#fff;border:0;padding:8px 12px;border-radius:8px;cursor:pointer}
+    button.secondary{background:#6b9bd1}
+
+    .questions{display:grid;grid-template-columns:1fr;gap:8px}
+    .q{background:#eef6ff;padding:10px;border-radius:8px}
+
+    /* quiz */
+    .quiz-q{padding:12px;background:#fff;border-radius:8px;margin-bottom:8px}
+    .choices{display:flex;flex-direction:column;gap:6px;margin-top:8px}
+
+    footer{margin-top:18px;text-align:center;color:var(--muted);font-size:14px}
+
+    @media(min-width:900px){
+      .layout{display:grid;grid-template-columns:1fr 360px;gap:16px}
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header class="card topbar">
+      <div>
+        <h1>Class 9 History — Chapter 1: The French Revolution</h1>
+        <div style="color:var(--muted)">Text (paraphrased in NCERT style) + easy explanation, images & exam questions</div>
+      </div>
+      <div class="controls">
+        <button onclick="expandAll()">Show All Explanations</button>
+        <button class="secondary" onclick="collapseAll()">Hide All Explanations</button>
+        <button onclick="startQuiz()">Start 10-question Quiz</button>
+      </div>
+    </header>
+
+    <div class="layout">
+      <!-- Left: chapter text + explanations -->
+      <main>
+        <!-- Section: Preface paragraph style (paraphrased) -->
+        <section class="card">
+          <h2>Full chapter text (paraphrased in simple language)</h2>
+
+          <div id="content" class="chapter-text">
+
+            <!-- Paragraph 1 -->
+            <div class="para orig" id="p1">
+              <strong>1.</strong> In the late 1700s, France was a powerful kingdom ruled by a king. But many common people were unhappy. There were severe taxes, rising food prices, and a big gap between the rich and the poor. These problems, plus new ideas about rights and government, led to a crisis that became the French Revolution.
+            </div>
+            <div class="para explain" data-for="p1" style="display:none">
+              <strong>Explanation:</strong> Imagine a town where a few families own most shops and land while others work hard but pay most of the taxes. When bread becomes expensive and people feel treated unfairly, they get angry. New thinkers (philosophers) said people had rights and should choose their leaders — these ideas made people want change.
+            </div>
+
+            <!-- Paragraph 2 -->
+            <div class="para orig" id="p2">
+              <strong>2.</strong> French society was divided into three groups called the Three Estates: the First Estate (clergy), the Second Estate (nobles) and the Third Estate (commoners which included peasants, urban workers and the emerging middle class). The First and Second had privileges and paid few taxes while the Third bore most of the tax burden.
+            </div>
+            <div class="para explain" data-for="p2" style="display:none">
+              <strong>Explanation:</strong> Think of a school where teachers and some students never follow rules while the rest do all the work. The Third Estate were the majority but had the least power — this unfairness caused anger and demand for fairness.
+            </div>
+
+            <!-- Paragraph 3 -->
+            <div class="para orig" id="p3">
+              <strong>3.</strong> The French monarchy spent a lot of money on wars and luxury, and the state treasury ran out. Attempts to reform taxes failed because the nobility resisted. When King Louis XVI called the Estates-General in 1789 to find a solution, the Third Estate demanded a greater say.
+            </div>
+            <div class="para explain" data-for="p3" style="display:none">
+              <strong>Explanation:</strong> The government was close to bankruptcy. Imagine your parents spending all their saved money on entertainment while bills pile up. When the family meets to decide, the people who pay most taxes want a fair share in the decision.
+            </div>
+
+            <!-- Paragraph 4 -->
+            <div class="para orig" id="p4">
+              <strong>4.</strong> The Third Estate formed the National Assembly claiming to represent the whole nation. Soon after, on 14 July 1789, angry Parisians attacked the Bastille prison — a symbol of royal power. This event became the most famous start of the Revolution.
+            </div>
+            <div class="para explain" data-for="p4" style="display:none">
+              <strong>Explanation:</strong> When a group says "we speak for everyone", this challenges the old system. The storming of the Bastille was like people breaking into a locked building that represented who had power. It inspired others to rise up.
+            </div>
+
+            <img class="image" src="https://upload.wikimedia.org/wikipedia/commons/1/1e/Prise_de_la_Bastille.jpg" alt="Storming of the Bastille" />
+
+            <!-- Paragraph 5 -->
+            <div class="para orig" id="p5">
+              <strong>5.</strong> The revolution spread quickly. Peasants attacked the houses of local lords, and people demanded rights and new laws. The National Assembly adopted the Declaration of the Rights of Man and of the Citizen, which said that all men are born free and equal in rights.
+            </div>
+            <div class="para explain" data-for="p5" style="display:none">
+              <strong>Explanation:</strong> The Declaration is like a promise that everyone should be treated fairly — with freedom of speech, equal laws and protection. It was a big change from the old idea that kings had absolute power.
+            </div>
+
+            <!-- Paragraph 6 -->
+            <div class="para orig" id="p6">
+              <strong>6.</strong> Women also took part in protests. They marched to Versailles demanding bread and political change. Over the next years the Revolution went through many stages: from moderate reforms to radical rule by groups that executed the king and many others.
+            </div>
+            <div class="para explain" data-for="p6" style="display:none">
+              <strong>Explanation:</strong> Women in Paris were tired of hunger and wanted leaders to act. Movements can change from peaceful to sudden and harsh when people get desperate — and sometimes leaders use violence to keep or gain control.
+            </div>
+
+            <img class="image" src="https://upload.wikimedia.org/wikipedia/commons/e/e5/Three_estates_cartoon.jpg" alt="Three Estates cartoon" />
+
+            <!-- Paragraph 7 -->
+            <div class="para orig" id="p7">
+              <strong>7.</strong> The Revolution introduced the idea that the nation, not the king, is the source of power. New laws and institutions replaced feudal privileges. Slavery and colonial issues remained complicated, and the Revolution inspired change across Europe.
+            </div>
+            <div class="para explain" data-for="p7" style="display:none">
+              <strong>Explanation:</strong> Before, power came from the king; after, the people said power comes from the nation. This idea later helped create modern democracies. But changes were not perfect or immediate — many problems stayed and new ones appeared.
+            </div>
+
+            <!-- Paragraph 8 -->
+            <div class="para orig" id="p8">
+              <strong>8.</strong> The French Revolution lasted for a decade and changed politics, society and ideas about government. It had long-term effects — it weakened monarchies and spread demands for representative government.
+            </div>
+            <div class="para explain" data-for="p8" style="display:none">
+              <strong>Explanation:</strong> Even if the Revolution had violence and confusion, it changed how people thought. People began to expect that rulers should be chosen or held accountable — not rule by birthright alone.
+            </div>
+
+            <!-- Paragraph 9: Summary line-by-line style -->
+            <div class="para orig" id="p9">
+              <strong>9. Summary (short lines to study):</strong>
+              \n• 1789: start of major events.\n• Society: Three Estates.\n• Cause: inequality, taxes, food shortages, new ideas.\n• Key event: Storming of Bastille (14 July 1789).\n• Important paper: Declaration of the Rights of Man.\n• Result: Monarchy challenged, Republic declared, long-term spread of democratic ideas.
+            </div>
+            <div class="para explain" data-for="p9" style="display:none">
+              <strong>Explanation:</strong> Use these lines to remember the main facts. Try to write them down and make flashcards from each line.
+            </div>
+
+          </div>
+        </section>
+
+        <!-- Exam questions section -->
+        <section class="card">
+          <h2>10 Most Probable Exam Questions</h2>
+          <div class="questions">
+            <div class="q">1. What were the main causes of the French Revolution? Explain with examples.</div>
+            <div class="q">2. Describe the Three Estates and explain why the Third Estate became angry.</div>
+            <div class="q">3. Why was the storming of the Bastille important? Give the date and why it mattered.</div>
+            <div class="q">4. What was the Declaration of the Rights of Man and the Citizen? Name two rights it promised.</div>
+            <div class="q">5. Explain how economic problems contributed to the Revolution.</div>
+            <div class="q">6. What role did women play in the Revolution? Give one example.</div>
+            <div class="q">7. How did the revolution change the idea of political power in France?</div>
+            <div class="q">8. Mention two long-term effects of the French Revolution on Europe.</div>
+            <div class="q">9. Who was Louis XVI and what happened to him during the Revolution?</div>
+            <div class="q">10. Why is the French Revolution called a turning point in world history?</div>
+          </div>
+        </section>
+
+      </main>
+
+      <!-- Right: sidebar with images, quick facts, and quiz area -->
+      <aside>
+        <section class="card">
+          <h2>Quick Facts</h2>
+          <ul style="line-height:1.7;color:var(--muted)">
+            <li><b>Start:</b> 1789</li>
+            <li><b>Bastille:</b> 14 July 1789</li>
+            <li><b>King:</b> Louis XVI</li>
+            <li><b>Declaration:</b> Rights of Man (1789)</li>
+            <li><b>Outcome:</b> Monarchy challenged; Republic declared; long-term democratic ideas</li>
+          </ul>
+        </section>
+
+        <section class="card">
+          <h2>Images</h2>
+          <img class="image" src="https://upload.wikimedia.org/wikipedia/commons/9/99/Execution_of_Louis_XVI.jpg" alt="Execution of Louis XVI" />
+          <div style="color:var(--muted);font-size:13px;text-align:center">Execution of Louis XVI</div>
+          <img class="image" src="https://upload.wikimedia.org/wikipedia/commons/8/80/Declaration_of_the_Rights_of_Man_and_of_the_Citizen.jpg" alt="Declaration" />
+          <div style="color:var(--muted);font-size:13px;text-align:center">Declaration of the Rights of Man</div>
+        </section>
+
+        <section class="card" id="quiz-area" style="display:none">
+          <h2>10-question Quiz</h2>
+          <div id="quiz"></div>
+          <div style="margin-top:8px">
+            <button onclick="checkQuiz()">Submit Answers</button>
+            <button class="secondary" onclick="restartQuiz()">Restart Quiz</button>
+          </div>
+          <div id="quiz-result" style="margin-top:8px;font-weight:bold"></div>
+        </section>
+
+        <section class="card">
+          <h2>How to use this page</h2>
+          <ol style="color:var(--muted)">
+            <li>Read the paragraph (left, in the pale box) as if it were the chapter text.</li>
+            <li>Click <em>Show All Explanations</em> to reveal simple meanings under each paragraph — study those.</li>
+            <li>Use the 10 exam questions to practice writing answers.</li>
+            <li>Start quiz to check your memory.</li>
+          </ol>
+        </section>
+      </aside>
+
+    </div>
+
+    <footer>
+      Created for study — paraphrased chapter text + explanations. You can save this file as <code>index.html</code> and open in VS Code or your browser.
+    </footer>
+  </div>
+
+  <script>
+    // Toggle explanation visibility for each paragraph
+    function expandAll(){
+      document.querySelectorAll('.para.explain').forEach(el=>el.style.display='block');
+    }
+    function collapseAll(){
+      document.querySelectorAll('.para.explain').forEach(el=>el.style.display='none');
+    }
+
+    // Simple Quiz data (10 questions) - answers are 0-based index of correct choice
+    const quizData = [
+      {q:'When did the French Revolution begin?', choices:['1776','1789','1804','1765'], a:1},
+      {q:'Which event is seen as the start of the Revolution?', choices:['Storming of the Bastille','Execution of the King','Declaration passed','Battle of Waterloo'], a:0},
+      {q:'Who was the king during the start of Revolution?', choices:['Napoleon','Louis XIV','Louis XVI','Charles X'], a:2},
+      {q:'Which document declared equality and rights?', choices:['Magna Carta','Declaration of the Rights of Man','Napoleonic Code','English Bill of Rights'], a:1},
+      {q:'How many estates were in French society?', choices:['Two','Three','Four','Five'], a:1},
+      {q:'Which estate paid most taxes?', choices:['First','Second','Third','None'], a:2},
+      {q:'What did "Liberty, Equality, Fraternity" stand for?', choices:['Royal power','Rights and brotherhood','Economic system','A religion'], a:1},
+      {q:'Which group marched to Versailles demanding bread?', choices:['Workers','Women','Nobles','Clergy'], a:1},
+      {q:'What happened to Louis XVI?', choices:['Went into exile','Was made president','Was executed','Retired peacefully'], a:2},
+      {q:'One long-term effect of the Revolution was', choices:['Strengthening absolute monarchies','Spread of democratic ideas','End of all wars','Immediate world peace'], a:1}
+    ];
+
+    function startQuiz(){
+      const area = document.getElementById('quiz-area');
+      area.style.display='block';
+      const qdiv = document.getElementById('quiz');
+      qdiv.innerHTML='';
+      quizData.forEach((item,i)=>{
+        const el = document.createElement('div');
+        el.className='quiz-q';
+        el.innerHTML = `<div><strong>Q${i+1}.</strong> ${item.q}</div>`;
+        const choices = document.createElement('div');
+        choices.className='choices';
+        item.choices.forEach((c,j)=>{
+          const id = 'q'+i+'c'+j;
+          const label = document.createElement('label');
+          label.innerHTML = `<input type='radio' name='q${i}' value='${j}' id='${id}'> ${c}`;
+          choices.appendChild(label);
+        });
+        el.appendChild(choices);
+        qdiv.appendChild(el);
+      });
+      document.getElementById('quiz-result').innerText='';
+      window.scrollTo({top:0,behavior:'smooth'});
+    }
+
+    function checkQuiz(){
+      let score=0;
+      quizData.forEach((item,i)=>{
+        const chosen = document.querySelector(`input[name='q${i}']:checked`);
+        if(chosen && parseInt(chosen.value)===item.a) score++;
+      });
+      const res = document.getElementById('quiz-result');
+      res.innerText = `You scored ${score} out of ${quizData.length}.`;
+    }
+    function restartQuiz(){
+      startQuiz();
+    }
+  </script>
+</body>
+</html>
